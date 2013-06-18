@@ -1,0 +1,7 @@
+eclipse.preferences.version=1
+encoding//src/tutorial/global/common/base/BaseFormObject.java=UTF-8
+encoding//src/tutorial/global/common/constant/GlobalConstants.java=UTF-8
+encoding//src/tutorial/global/common/util/ConsoleLogger.java=UTF-8
+encoding//src/tutorial/global/common/util/ValidationUtil.java=UTF-8
+encoding//src/tutorial/global/cool/user/service/UserService.java=UTF-8
+encoding//test/tutorial/global/controller/login/LoginControllerTest.java=UTF-8

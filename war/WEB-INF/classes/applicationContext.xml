@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xmlns:context="http://www.springframework.org/schema/context"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans 
+           http://www.springframework.org/schema/beans/spring-beans-2.5.xsd
+           http://www.springframework.org/schema/context
+           http://www.springframework.org/schema/context/spring-context-2.5.xsd">
+
+	<bean id="propertyConfigurer" class="org.springframework.beans.factory.config.PropertyPlaceholderConfigurer">
+		<property name="location" value="classpath:db.properties" />
+	</bean>
+
+	<!-- ==================================================================================================== -->
+	<!-- 【フレームワーク対応】 ベースアクションクラスパッケージ -->
+	<!-- ==================================================================================================== -->
+	<context:component-scan base-package="tutorial.global.dao"></context:component-scan>
+
+
+	<!-- ==================================================================================================== -->
+	<!-- 共通ビーン定義 -->
+	<!-- ==================================================================================================== -->
+	<bean id="consoleLogger" class="tutorial.global.common.util.ConsoleLogger" scope="singleton">
+		<description>Logs items to the console</description>
+	</bean>
+
+
+	<!-- ==================================================================================================== -->
+	<!-- MYSQL対象設定 -->
+	<!-- ==================================================================================================== -->
+	<bean id="mysqlConnector" class="tutorial.global.common.db.MySQLDbConnector">
+		<description>A BaseDbConnector implementation class for MySQL-related database transactions</description>
+		<property name="logger" ref="consoleLogger" />
+		<property name="dbUrl" value="${db.gae.url}" />
+		<property name="dbUser" value="${db.gae.user" />
+		<property name="dbPassword" value="${db.gae.pass}" />
+	</bean>
+	
+	<!-- for application context  -->
+	<bean id="springApplicationContext" class="tutorial.global.common.util.SpringApplicationContext"/>
+
+</beans>

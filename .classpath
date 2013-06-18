@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="src" path="src"/>
+	<classpathentry kind="src" path="conf"/>
+	<classpathentry kind="src" path="test"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/jdk1.7.0_21"/>
+	<classpathentry exported="true" kind="lib" path="war/WEB-INF/lib/junit.jar"/>
+	<classpathentry kind="lib" path="war/WEB-INF/lib/commons-beanutils-1.7.0.jar"/>
+	<classpathentry kind="lib" path="war/WEB-INF/lib/commons-digester-2.0.jar"/>
+	<classpathentry kind="lib" path="war/WEB-INF/lib/commons-fileupload-1.2.1.jar"/>
+	<classpathentry kind="lib" path="war/WEB-INF/lib/commons-io-1.3.2.jar"/>
+	<classpathentry kind="lib" path="war/WEB-INF/lib/commons-lang-2.3.jar"/>
+	<classpathentry kind="lib" path="war/WEB-INF/lib/commons-logging-1.0.4.jar"/>
+	<classpathentry kind="lib" path="war/WEB-INF/lib/commons-validator-1.3.1.jar"/>
+	<classpathentry kind="lib" path="war/WEB-INF/lib/ktrwjr.jar"/>
+	<classpathentry kind="lib" path="war/WEB-INF/lib/slim3-1.0.15.jar" sourcepath="C:/personal/Programming/General/RGTC Cebu Projects/SBC Project/Ultra Small Project/slim/trunk/20_source/20_cms_slim/CustomerManagementSystem/war/WEB-INF/lib/slim3-1.0.15.jar"/>
+	<classpathentry kind="lib" path="war/WEB-INF/lib/spring-aop-2.5.6.SEC03.jar"/>
+	<classpathentry kind="lib" path="war/WEB-INF/lib/spring-beans-2.5.6.SEC03.jar"/>
+	<classpathentry kind="lib" path="war/WEB-INF/lib/spring-context-2.5.6.SEC03.jar"/>
+	<classpathentry kind="lib" path="war/WEB-INF/lib/spring-core-2.5.6.SEC03.jar"/>
+	<classpathentry kind="lib" path="war/WEB-INF/lib/spring-tx-2.5.6.SEC03.jar"/>
+	<classpathentry kind="lib" path="war/WEB-INF/lib/spring-web-2.5.6.SEC03.jar"/>
+	<classpathentry kind="lib" path="spring-aop-2.5.6.SEC03.jar"/>
+	<classpathentry kind="lib" path="spring-beans-2.5.6.SEC03.jar"/>
+	<classpathentry kind="lib" path="spring-context-2.5.6.SEC03.jar"/>
+	<classpathentry kind="lib" path="spring-core-2.5.6.SEC03.jar"/>
+	<classpathentry kind="lib" path="spring-tx-2.5.6.SEC03.jar"/>
+	<classpathentry kind="lib" path="spring-web-2.5.6.SEC03.jar"/>
+	<classpathentry kind="lib" path="C:/Program Files (x86)/Java/jre7/lib/jmock-junit3-2.5.1.jar"/>
+	<classpathentry kind="lib" path="C:/Program Files (x86)/Java/jre7/lib/mockito-all-1.9.5.jar"/>
+	<classpathentry kind="con" path="com.google.appengine.eclipse.core.GAE_CONTAINER"/>
+	<classpathentry kind="lib" path="war/WEB-INF/lib/mysql-connector-java-5.1.24-bin.jar"/>
+	<classpathentry kind="lib" path="war/WEB-INF/lib/mockito-all-1.9.5.jar"/>
+	<classpathentry kind="lib" path="war/WEB-INF/lib/shiro-all-1.2.2.jar"/>
+	<classpathentry kind="output" path="war/WEB-INF/classes"/>
+</classpath>

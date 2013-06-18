@@ -34,7 +34,7 @@ public class DBConnectorTest {
 //                PropertiesLoaderUtils.loadAllProperties("db.properties").getProperty("db.gae.url"));
                 String url = "jdbc:mysql://localhost:3306/sbc";
                 con = DriverManager.getConnection(url, "root","password");
-                System.out.println("");
+//                System.out.println("");
             } catch (Exception e) {
                 e.printStackTrace();
             }
